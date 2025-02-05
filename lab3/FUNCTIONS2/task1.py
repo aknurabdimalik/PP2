@@ -80,7 +80,8 @@ movies = [
 
 def is_movie_good(movie):
     return movie["imdb"] > 5.5
-movie = movies[0] 
+
+movie = movies[0]  
 print(is_movie_good(movie))
 
 

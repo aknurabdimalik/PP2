@@ -83,4 +83,4 @@ def filter_good_movies(movies):
     return [movie for movie in movies if is_movie_good(movie)]
 
 good_movies = filter_good_movies(movies)
-print([movie["name"] for movie in good_movies])
+print([movie["name"] for movie in good_movies]) 
